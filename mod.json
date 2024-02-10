@@ -1,0 +1,9 @@
+{
+	"geode": "2.0.0",
+	"gd": "2.204",
+	"version": "v1.0.0",
+	"id": "uproxide.autosong",
+	"name": "AutoSong",
+	"developer": "Uproxide",
+	"description": "Automatically Downloads Level Songs!"
+}
