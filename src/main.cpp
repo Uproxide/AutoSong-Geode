@@ -10,9 +10,8 @@ class $modify(LevelInfoLayer) {
     bool init(GJGameLevel* p0, bool p1) {
         if (!LevelInfoLayer::init(p0, p1)) return false;
 
-        std::this_thread::sleep_for(std::chrono::milliseconds(400));
-
         if (this->m_songWidget->m_downloadBtn->isVisible()) {
+            std::this_thread::sleep_for(std::chrono::milliseconds(100));
             this->m_songWidget->onDownload(nullptr);
         } else {
             // no 
