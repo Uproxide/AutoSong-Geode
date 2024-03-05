@@ -10,10 +10,16 @@ struct LevelInfoLayerHook : Modify<LevelInfoLayerHook, LevelInfoLayer> {
 
 		if (this->m_songWidget->m_downloadBtn->isVisible()) {
 			this->m_songWidget->onDownload(nullptr);
-		} else {
-			// no
 		}
 
 		return true;
+	}
+
+	void levelDownloadFinished(GJGameLevel *level) {
+		LevelInfoLayer::levelDownloadFinished(level);
+
+		if (this->m_songWidget->m_downloadBtn->isVisible()) {
+			this->m_songWidget->onDownload(nullptr);
+		}
 	}
 };
