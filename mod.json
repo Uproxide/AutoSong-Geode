@@ -8,6 +8,9 @@
 	"version": "v1.1.0",
 	"id": "uproxide.autosong",
 	"name": "AutoSong",
-	"developer": "Uproxide",
+	"developers": [
+		"Uproxide",
+		"TheSillyDoggo"
+	],
 	"description": "Automatically Downloads Level Songs!"
 }
