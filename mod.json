@@ -1,12 +1,15 @@
 {
-	"geode": "3.0.0-alpha.1",
+	"geode": "3.0.0",
 	"gd": {
 		"android": "2.206",
-        	"win": "2.206"
+        "win": "2.206"
 	},
-	"version": "v1.2.0",
+	"version": "v1.2.1",
 	"id": "uproxide.autosong",
 	"name": "AutoSong",
 	"developer": "Uproxide",
-	"description": "Automatically Downloads Level Songs!"
+	"description": "Automatically Downloads Level Songs!",
+	"tags": [
+		"interface", "music", "utility"
+	]
 }

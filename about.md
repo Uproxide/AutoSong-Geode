@@ -1,7 +1,6 @@
 # AutoSong
 
-Automatically downloads a levels song!
-If the level has multiple songs/sfx.
+Automatically downloads a levels songs/sfx!
 
 [Join the Discord](https://discord.gg/gy4BrxmWrF)
 
